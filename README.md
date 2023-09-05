@@ -22,7 +22,7 @@ Usage of ungrok:
 ```cmd
 ungrok -pattern "%{TIMESTAMP_ISO8601}"
 ungrok -pattern "%{MONTH}" -output out.txt
-ungrok -pattern "%{POSTGRESQL}" -config /pat/to/patternsdir
+ungrok -pattern "%{POSTGRESQL}" -config /path/to/patternsdir
 ```
 
 ## Building from source
